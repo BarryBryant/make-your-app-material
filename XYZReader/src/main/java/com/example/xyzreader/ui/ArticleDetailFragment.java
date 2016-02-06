@@ -165,9 +165,8 @@ public class ArticleDetailFragment extends Fragment implements
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
                             System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                             DateUtils.FORMAT_ABBREV_ALL).toString()
-                            + " by <font color='#000000'>"
-                            + mCursor.getString(ArticleLoader.Query.AUTHOR)
-                            + "</font>"));
+                            + " by "
+                            + mCursor.getString(ArticleLoader.Query.AUTHOR)));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
@@ -185,7 +184,7 @@ public class ArticleDetailFragment extends Fragment implements
                         }
                     });
         } else {
-            //titleView.setText("N/A");
+            titleView.setText("N/A");
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
