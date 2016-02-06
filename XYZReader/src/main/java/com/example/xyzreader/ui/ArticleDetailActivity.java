@@ -74,7 +74,8 @@ public class ArticleDetailActivity extends ActionBarActivity
 
         if (savedInstanceState == null) {
             if (getIntent() != null && getIntent().getData() != null) {
-
+                mStartId = ItemsContract.Items.getItemId(getIntent().getData());
+                //mSelectedItemId = mStartId;
             }
         }
     }
