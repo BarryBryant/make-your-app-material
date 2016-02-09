@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="4dp"
-    android:layout_marginRight="4dp"
-    android:layout_marginTop="4dp"
-    android:layout_marginBottom="4dp"
+    android:layout_margin="@dimen/card_detail_margin"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
@@ -31,9 +28,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:paddingTop="4dp"
-            android:paddingLeft="4dp"
-            android:paddingRight="4dp"
+            android:paddingTop="@dimen/card_text_padding"
+            android:paddingLeft="@dimen/card_text_padding"
+            android:paddingRight="@dimen/card_text_padding"
             />
 
         <TextView
@@ -41,9 +38,9 @@
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="4dp"
-            android:paddingRight="4dp"
-            android:paddingBottom="4dp"
+            android:paddingLeft="@dimen/card_text_padding"
+            android:paddingRight="@dimen/card_text_padding"
+            android:paddingBottom="@dimen/card_text_padding"
             android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/fontSecondary" />
