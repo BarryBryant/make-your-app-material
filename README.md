@@ -4,14 +4,14 @@ ___
 ![](http://i.imgur.com/fvJK33q.gif)
 ___
 ### Required Behavior
-* App uses the Design Support library and its provided widget types
-* App uses CoordinatorLayout for the main activity
-* App theme extends from AppCompat
-* App uses an app bar and associated toolbars
-* App provides a Floating Action Button for most common action(s)
-* App properly specifies elevation for app bars, FAB, and other elements specified in the Material Design specification
-* App provides sufficient space between text and surrounding elements
-* App has a consistent color theme defined in styles.xml
-* Color theme does not impact usability of the app
-* App uses images that are high quality, specific, and full bleed
-* App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting
+- [x] App uses the Design Support library and its provided widget types
+- [x] App uses CoordinatorLayout for the main activity
+- [x] App theme extends from AppCompat
+- [x] App uses an app bar and associated toolbars
+- [x] App provides a Floating Action Button for most common action(s)
+- [x] App properly specifies elevation for app bars, FAB, and other elements specified in the Material Design specification
+- [x] App provides sufficient space between text and surrounding elements
+- [x] App has a consistent color theme defined in styles.xml
+- [x] Color theme does not impact usability of the app
+- [x] App uses images that are high quality, specific, and full bleed
+- [x] App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting
